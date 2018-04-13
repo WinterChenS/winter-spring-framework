@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-jms:main" external.linked.project.path="$MODULE_DIR$/../../../spring-jms" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-jms/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.jms/javax.jms-api/2.0.1/5faaa3864ff6025ce69809b60d65bda3e358610c/javax.jms-api-2.0.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.resource/javax.resource-api/1.7/ae40e0864eb1e92c48bf82a2a3399cbbf523fb79/javax.resource-api-1.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.5/3490508379d065fe3fcb80042b62f630f7588606/jackson-databind-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.5/a22ac51016944b06fd9ffbc9541c6e7ce5eea117/jackson-core-2.9.5.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-jms" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../spring-jms/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-jms/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-oxm_main" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-messaging_main" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: javax.jms:javax.jms-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
+  </component>
+</module>

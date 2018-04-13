@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-webflux:main" external.linked.project.path="$MODULE_DIR$/../../../spring-webflux" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-webflux/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.6.RELEASE/64dfad0f0a0e9022c949d678106d53f083b66d05/reactor-core-3.1.6.RELEASE.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.9.v20180320/c278d6649a5c754f5ae5182f4ee680309c3880d3/websocket-server-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.9.v20180320/1e443fa4b3ac4c8cee483164479ff3d01b5fcf21/websocket-servlet-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.9.v20180320/d4453b746bc581af6ec5bce09228dc802bec1040/jetty-servlet-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.9.v20180320/dadd28ef757d9b8cdd1d7eef7fcbfa0b482c4648/jetty-security-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.9.v20180320/8847f7278e8ace7a1f5847e71563c8a10546582/jetty-server-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/13b8cb26dfb76ac8c28294b06b4b8419e22e9ea1/javax.websocket-api-1.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.webjars/webjars-locator-core/0.35/87e90bbd44accfb331783ac30dac2d166c41ba6d/webjars-locator-core-0.35.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.27-incubating/fa71f754fd3c4123358c2b1e5eef630cd99d752f/freemarker-2.3.27-incubating.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.5/3490508379d065fe3fcb80042b62f630f7588606/jackson-databind-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.9.5/dbc8efaf5c70004dfb4ac5db6fa7e12534ada22d/jackson-dataformat-smile-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.2.1/dac56d021c092c34662943dae3ab1432542005/rxjava-reactive-streams-1.2.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.7/c4e3e6aec84c7dcc77f3be8c66e7623f833c4955/rxjava-1.3.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.projectreactor.ipc/reactor-netty/0.7.6.RELEASE/d425f9c97d7e73f163b5c0d4ae0f8ac9a38a0cb3/reactor-netty-0.7.6.RELEASE.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-websocket/8.5.29/7c9db984229882bc0c07b42b74a17efa340eeaa/tomcat-websocket-8.5.29.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-websockets-jsr/1.4.23.Final/6b4c0b883d94c59b3d7907b02b6cee084ae9c28e/undertow-websockets-jsr-1.4.23.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.9/cc18955ff1e36d5abd39a14bfe82b19154330a34/commons-compress-1.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.5/a22ac51016944b06fd9ffbc9541c6e7ce5eea117/jackson-core-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.22.Final/8eabe24f0b8e95d0873964666ad070179ca81e72/netty-handler-proxy-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.22.Final/3805f3ca0d57630200defc7f9bb6ed3382dcb10b/netty-codec-http-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.22.Final/a3a16b17d5a5ed6f784b0daba95e28d940356109/netty-handler-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.22.Final/8d2149a9381fe8e38c44a9433d752aaa060bd4d3/netty-transport-native-epoll-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/8.5.29/3cf921028cab24aa4c2705493ccb732d8f61a852/tomcat-util-8.5.29.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.29/61b2514e169d96c7f5c2e1a9cf6901b493fb2301/tomcat-juli-8.5.29.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.9.v20180320/7bd061a1e4f061a02c9fa1441ff93aca213b303c/websocket-client-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.9.v20180320/ca1f96a14ae58d951d1d93c1c5a3416b4b501578/websocket-common-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.9.v20180320/c6ed57d55c5d55927c6e11fc47972a4eeacba6f4/jetty-client-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.9.v20180320/64d93698196ea7a66b33c754a0eac2a97d5af4b6/jetty-http-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/1.4.23.Final/3035ba5efbca693d4e29fb771171786d6ed80ef5/undertow-servlet-1.4.23.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/1.4.23.Final/c8afc5087c8d1622fdf773108169a618be898067/undertow-core-1.4.23.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.22.Final/d077b39da2dedc5dc5db50a44e5f4c30353e86f3/netty-codec-socks-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.22.Final/239c0af275952e70bb4adf7cf8c03d88ddc394c9/netty-codec-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.22.Final/6bacdbb3711aa9db2984da0b0ed7c5bc838136d2/netty-transport-native-unix-common-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.22.Final/3bd455cd9e5e5fb2e08fd9cd0acfa54c079ca989/netty-transport-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.22.Final/15e964a2095031364f534a6e21977f5ee9ca32a9/netty-buffer-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.22.Final/b5484d17a97cb57b07d2a1ac092c249e47234c17/netty-resolver-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.22.Final/56ff4deca53fc791ed59ac2b72eb6718714a4de9/netty-common-4.1.22.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.9.v20180320/8be09aafe135e370bbc33a8ec01b443ac9aa9a47/websocket-api-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.9.v20180320/938d67c72405285d2a7a6efb10d870a1b16fa2e0/jetty-io-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.9.v20180320/247894128d4d3ba41774be941fb801e20e668be7/jetty-xml-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.9.v20180320/8a602b93581f6af54839728f51d51ab830bdd44d/jetty-util-9.4.9.v20180320.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.2.1.Final/fedf11b3d4665a434b554a5891fe7f208f029f45/jboss-logging-3.2.1.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/xnio-api-3.3.8.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec/1.0.2.Final/c61fd650e120cec1a0390db9457bb36d1e7121a9/jboss-servlet-api_3.1_spec-1.0.2.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/d6b20c0e95c5b38f313cc2ab1a55560cedabe1f/jboss-annotations-api_1.2_spec-1.0.2.Final.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-webflux" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../spring-webflux/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-webflux/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.22.Final" level="project" />
+    <orderEntry type="module" module-name="spring-context-support_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-buffer:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:webjars-locator-core:0.35" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-util:8.5.29" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.ipc:reactor-netty:0.7.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-websocket:8.5.29" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.23.Final" level="project" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.22.Final" level="project" />
+    <orderEntry type="module" module-name="spring-web_main" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.9.v20180320" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:1.4.23.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:1.4.23.Final" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.22.Final" level="project" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.1.6.RELEASE" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-api:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.27-incubating" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.29" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.9.v20180320" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:1.0.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.2.Final" level="project" />
+  </component>
+</module>

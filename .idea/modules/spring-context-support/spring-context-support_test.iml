@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-context-support:test" external.linked.project.path="$MODULE_DIR$/../../../spring-context-support" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-context-support/build/classes/kotlin/test" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.12.0/a42fb82aa1eccb27c3f0371c8bc7385ae1c6598d/mockito-core-2.12.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.nhaarman/mockito-kotlin/1.5.0/25faa884f76375f76cdbd6651c4cebcde36d4117/mockito-kotlin-1.5.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-matchers/2.3.0/351fc57e5b33c57762e22af937a85fcfe7ec4bd/xmlunit-matchers-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.4.0/195957160ed990dbc798207c0d577280d9919208/hsqldb-2.4.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.9/51218a01a882c04d0aba8c028179cce488bbcb58/byte-buddy-1.7.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.9/a6c65f9da7f467ee1f02ff2841ffd3155aee2fc9/byte-buddy-agent-1.7.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.3.0/7c269e689ba9bc144bcbb03801a140b08b236954/xmlunit-core-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.9.Final/b149e4cce82379f11f6129eb3187ca8ae5404005/hibernate-validator-6.0.9.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.6.1/8cababdc2a9caae6e1641aae6671c24394227651/javax.mail-api-1.6.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.cache/cache-api/1.1.0/77bdcff7814076dfa61611b0db88487c515150b6/cache-api-1.1.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.6.2/c8fd8817f9d2b2ced82f8968e0dd943aab557de0/caffeine-2.6.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.4/9022b1eedfafa11039597b1c1918c1abe414df93/ehcache-2.10.4.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.0/a090397102a12f6241177c5d501835334bb7662a/quartz-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.codehaus.fabric3.api/commonj/1.1.0/11e7a4fbf6c257e221df0aadf9851d8992fe60ff/commonj-1.1.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.27-incubating/fa71f754fd3c4123358c2b1e5eef630cd99d752f/freemarker-2.3.27-incubating.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP-java6/2.3.13/376d13a7b2dc57379c550619fe02ecfe51e62465/HikariCP-java6-2.3.13.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.2/5f86cb6130bc6e8475615ed82d5b5e6fb226a86a/c3p0-0.9.5.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.11/2a6a6c1fe25f28f5a073171956ce6250813467ef/mchange-commons-java-0.2.11.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-context-support" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../spring-context-support/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-context-support/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-support/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-support/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-support/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-beans_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
+    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-jdbc_test" production-on-test="" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-tx_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: javax.mail:javax.mail-api:1.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz:2.3.0" level="project" />
+    <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" />
+    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP-java6:2.3.13" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-beans/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-beans/build/classes/groovy/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-core/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-context/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-context/build/classes/groovy/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-aop/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-expression/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-instrument/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-jdbc/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-tx/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-core:2.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.nhaarman:mockito-kotlin:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-all:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-matchers:2.3.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-beans/build/classes/kotlin/test" />
+          <root url="file://$MODULE_DIR$/../../../spring-beans/build/classes/groovy/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-context/build/classes/kotlin/test" />
+          <root url="file://$MODULE_DIR$/../../../spring-context/build/classes/groovy/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.7.9" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.7.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-jul:2.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.ehcache:jcache:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.ehcache:ehcache:3.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.9.Final" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-context-support/build/classes/kotlin/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish:javax.el:3.0.1-b08" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.mail:javax.mail:1.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.cache:cache-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ben-manes.caffeine:caffeine:2.6.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sf.ehcache:ehcache:2.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.fabric3.api:commonj:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.cache:cache-api:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.27-incubating" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: com.mchange:mchange-commons-java:0.2.11" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="spring-context-support_main" />
+</module>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-jdbc:main" external.linked.project.path="$MODULE_DIR$/../../../spring-jdbc" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-jdbc/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.4.0/195957160ed990dbc798207c0d577280d9919208/hsqldb-2.4.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/bb391050048ca8ae3e32451b5a3714ecd3596a46/h2-1.4.197.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.14.1.0/3bcd8b1af3f8cd022d54d331e00064776be04f9c/derby-10.14.1.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.derby/derbyclient/10.14.1.0/8a10efddd1d0a9fd386053e3f939c73a42d140ad/derbyclient-10.14.1.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-jdbc" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../spring-jdbc/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-jdbc/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jdbc/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jdbc/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jdbc/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.197" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.derby:derby:10.14.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.derby:derbyclient:10.14.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+  </component>
+</module>

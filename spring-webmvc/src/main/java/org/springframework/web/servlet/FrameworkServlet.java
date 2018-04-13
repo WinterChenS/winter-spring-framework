@@ -484,6 +484,8 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 
 
 	/**
+	 * initServletBean通过所提供的这些策略生成我们所需要的应用程序上下文
+	 * 其中每个策略都会产生一类在DispatcherServlet中用来处理传入请求的对象
 	 * Overridden method of {@link HttpServletBean}, invoked after any bean properties
 	 * have been set. Creates this servlet's WebApplicationContext.
 	 */
@@ -496,6 +498,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 		long startTime = System.currentTimeMillis();
 
 		try {
+			// 这里调用下面的初始化方法
 			this.webApplicationContext = initWebApplicationContext();
 			initFrameworkServlet();
 		}
@@ -558,6 +561,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 			// Either the context is not a ConfigurableApplicationContext with refresh
 			// support or the context injected at construction time had already been
 			// refreshed -> trigger initial onRefresh manually here.
+			// 这里调用子类的onRefresh方法
 			onRefresh(wac);
 		}
 
@@ -949,6 +953,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 	}
 
 	/**
+	 * FrameworkServlet通过将每个传入的请求调度到此方法来覆盖它们
 	 * Process this request, publishing an event regardless of the outcome.
 	 * <p>The actual event handling is performed by the abstract
 	 * {@link #doService} template method.
@@ -959,7 +964,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 		long startTime = System.currentTimeMillis();
 		Throwable failureCause = null;
 
-		LocaleContext previousLocaleContext = LocaleContextHolder.getLocaleContext();
+		LocaleContext previousLocaleContext = LocaleContextHolder.getLocaleContext();//国际化
 		LocaleContext localeContext = buildLocaleContext(request);
 
 		RequestAttributes previousAttributes = RequestContextHolder.getRequestAttributes();
@@ -971,6 +976,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 		initContextHolders(request, localeContext, requestAttributes);
 
 		try {
+			//doService将一些附加参数放入request
 			doService(request, response);
 		}
 		catch (ServletException | IOException ex) {

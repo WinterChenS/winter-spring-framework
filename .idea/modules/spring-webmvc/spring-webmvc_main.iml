@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-webmvc:main" external.linked.project.path="$MODULE_DIR$/../../../spring-webmvc" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-webmvc/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.0/60200affc2fe0165136ed3690faf00b66aed581a/javax.servlet-api-4.0.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/javax.servlet.jsp-api/2.3.2-b02/287387015b38bb4fc5d5f085c938ab51bf82b00/javax.servlet.jsp-api-2.3.2-b02.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api/1.2.1/f072f63ab1689e885ac40c221df3e6bb3e64a84a/javax.servlet.jsp.jstl-api-1.2.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.el/javax.el-api/3.0.1-b04/8c0c970b8deae5054ff0bf4b17979c8181a506d3/javax.el-api-3.0.1-b04.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.0/99f802e0cb3e953ba3d6e698795c4aeb98d37c48/jaxb-api-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.webjars/webjars-locator-core/0.35/87e90bbd44accfb331783ac30dac2d166c41ba6d/webjars-locator-core-0.35.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.rometools/rome/1.9.0/4546a79a6fb470c5235806c877d9438140f3bb61/rome-1.9.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.github.librepdf/openpdf/1.0.5/ef6e2defc89b51d0b8fb595bd24cf37dc4f84406/openpdf-1.0.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.17/7d8c44407178b73246462842bf1e206e99c8e0a/poi-ooxml-3.17.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-extras/3.0.8/4251303209066a9ac1a948d2badd19156b18d14b/tiles-extras-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-freemarker/3.0.8/2d00cb648984176c3072ac3b41369b02e5a50897/tiles-freemarker-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-freemarker/1.0.7/cf75182100f643bf32e063c83dc1d8e0bfc258b7/tiles-request-freemarker-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.27-incubating/fa71f754fd3c4123358c2b1e5eef630cd99d752f/freemarker-2.3.27-incubating.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.9.5/53b3e319b198516024422d495314ecda51ca1f13/jackson-dataformat-xml-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.9.5/187555dec071c79f1cf797cb0862c06bd02fafd6/jackson-module-jaxb-annotations-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.5/3490508379d065fe3fcb80042b62f630f7588606/jackson-databind-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.9.5/dbc8efaf5c70004dfb4ac5db6fa7e12534ada22d/jackson-dataformat-smile-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.9.5/e3ceeb7bbfcc3d36a1abcc5ed9544d5298e65f39/jackson-dataformat-cbor-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-compat/3.0.8/8890ecc25134919e03a4f15b41e83ee5335f7beb/tiles-compat-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.8/7465a65e4b3821a9785995bcb5ce2f74098ab023/tiles-jsp-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-velocity/3.0.8/f596ad41c8bdbf70ea35cba145a810968eeee4f/tiles-velocity-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.8/56c7ed54e70912ef6628dca464a54a5ecac587b3/tiles-servlet-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-el/3.0.8/d006d8201c7d9cee6c679ef0b0911ce35ced9187/tiles-el-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-mvel/3.0.8/7538c448d25c86b11ffb8027009feacd5dbea5c8/tiles-mvel-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-ognl/3.0.8/138753498a27322b35eedfa808428fb24a97c2c2/tiles-ognl-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.8/1f71d0545540ad4bd7b4d883b2ff763cffde237/tiles-core-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.8/70b396cce5516f7069d15398f07bb32c9020a5df/tiles-template-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.8/a3c4f741b1cf5ce578b85155cf640a932f617167/tiles-api-3.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.15/423a17aeb2f64bc6f76e8e44265a548bec80fd42/groovy-all-2.4.15.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.rometools/rome-utils/1.9.0/9f2291327c641cd78d3111d50e9b03022f6c1090/rome-utils-1.9.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.7/6a9bde44749334e9ef85d0bdf854ff20641c113/tiles-request-jsp-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet-wildcard/1.0.7/2b151fbe0d3c4b0d3cd6b804b30002a878189b74/tiles-request-servlet-wildcard-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-velocity/1.0.7/a79b6608238a31ee8b3ffabff824daed7df5251c/tiles-request-velocity-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.7/e9b9e3cda2a489b3292ed3a15a558b2b57ad0940/tiles-request-servlet-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-mustache/1.0.7/9512741d0042ff6ff6227c4a7c378307f388bbd7/tiles-request-mustache-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.7/c649a9be6df263c888a2195447cd602d530cc233/tiles-request-api-1.0.7.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.9/cc18955ff1e36d5abd39a14bfe82b19154330a34/commons-compress-1.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.5/a22ac51016944b06fd9ffbc9541c6e7ce5eea117/jackson-core-2.9.5.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/6f14738ec2e9dd0011e343717fa624a10f8aab64/jdom2-2.0.6.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.58/15a760a039b040e767a75c77ffcc4ff62558f903/bcpkix-jdk15on-1.58.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.58/2c9aa1c4e3372b447ba5daabade4adf2a2264b12/bcprov-jdk15on-1.58.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.17/ae92292a2043888b40d418da97dc0b669fde326/poi-3.17.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.17/890114bfa82f5b6380ea0e9b0bf49b0af797b414/poi-ooxml-schemas-3.17.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.04/3386abf821719bc89c7685f9eaafaf4a842f0199/curvesapi-1.04.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.0.3/10aa199207fda142eff01cd61c69244877d71770/woodstox-core-5.0.3.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/3dbd8a76683cd563583a2c78c356ad8b8acf38bf/commons-digester-2.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.8.4/371619789a3d6f75c9960dc50de0099b10342816/compiler-0.8.4.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0.1/b8e78b9af7bf45900e14c6f958486b6ca682195f/guava-12.0.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.2/100bd3cae1a5debf9afb4ef5c8b36c508d06326/tiles-autotag-core-runtime-1.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity-tools/2.0/69936384de86857018b023a8c56ae0635c56b6a0/velocity-tools-2.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.mvel/mvel2/2.0.11/14bb21dabd899d2e60d9c0d008f267ed0d6c9ea8/mvel2-2.0.11.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/ognl/ognl/2.7.3/8c391fdc943b352045bd35c4f57306ccc6442f7c/ognl-2.7.3.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity/1.6.2/1b470ec12a9b8aa69b0458a7e477dacb2cbdd6a0/velocity-1.6.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/jboss/javassist/3.7.ga/6d271a67a1d8718bfb225ace5a25f1c09427c9f8/javassist-3.7.ga.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-webmvc" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../spring-webmvc/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-webmvc/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webmvc/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webmvc/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webmvc/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-context-support_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-velocity:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-api:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: commons-digester:commons-digester:2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-servlet:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-template:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-jsp:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-servlet-wildcard:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-mustache:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-freemarker:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-velocity:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-mvel:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-ognl:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-compat:3.0.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:12.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project" />
+    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: com.github.spullara.mustache.java:compiler:0.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-request-freemarker:1.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.velocity:velocity-tools:2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: ognl:ognl:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.velocity:velocity:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:webjars-locator-core:0.35" level="project" />
+    <orderEntry type="library" name="Gradle: com.rometools:rome-utils:1.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.rometools:rome:1.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-extras:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.librepdf:openpdf:1.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-jsp:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml:3.17" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-api:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-core:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-servlet:3.0.8" level="project" />
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="module" module-name="spring-oxm_main" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-el:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.58" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi:3.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.17" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-web_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet.jsp:javax.servlet.jsp-api:2.3.2-b02" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.el:javax.el-api:3.0.1-b04" level="project" />
+    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.27-incubating" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.4.15" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jdom:jdom2:2.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.58" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tiles:tiles-autotag-core-runtime:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.mvel:mvel2:2.0.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: jboss:javassist:3.7.ga" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.4" level="project" />
+  </component>
+</module>

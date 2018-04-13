@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-expression:test" external.linked.project.path="$MODULE_DIR$/../../../spring-expression" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.5.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-expression/build/classes/kotlin/test" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.12.0/a42fb82aa1eccb27c3f0371c8bc7385ae1c6598d/mockito-core-2.12.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.nhaarman/mockito-kotlin/1.5.0/25faa884f76375f76cdbd6651c4cebcde36d4117/mockito-kotlin-1.5.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-matchers/2.3.0/351fc57e5b33c57762e22af937a85fcfe7ec4bd/xmlunit-matchers-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.9/51218a01a882c04d0aba8c028179cce488bbcb58/byte-buddy-1.7.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.9/a6c65f9da7f467ee1f02ff2841ffd3155aee2fc9/byte-buddy-agent-1.7.9.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.3.0/7c269e689ba9bc144bcbb03801a140b08b236954/xmlunit-core-2.3.0.jar:/Users/Winterchen/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-expression" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../spring-expression/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-expression/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-expression/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-expression/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-expression/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-core/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-jcl/build/classes/kotlin/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-core:2.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.nhaarman:mockito-kotlin:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-all:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-matchers:2.3.0" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.7.9" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.7.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../spring-expression/build/classes/kotlin/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-jul:2.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="spring-expression_main" />
+</module>

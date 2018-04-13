@@ -37,6 +37,7 @@ public abstract class WebAsyncUtils {
 
 
 	/**
+	 * 管理异步请求的处理。什么时候要用到异步处理呢？就是业务逻辑复杂（或者其他原因），为了避免请求线程阻塞，需要委托给另一个线程的时候
 	 * Obtain the {@link WebAsyncManager} for the current request, or if not
 	 * found, create and associate it with the request.
 	 */
